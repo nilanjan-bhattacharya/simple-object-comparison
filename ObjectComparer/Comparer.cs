@@ -11,7 +11,6 @@ namespace ObjectComparer
     {
         public static bool AreSimilar<T>(T first, T second)
         {
-            /// Add your implementation logic here. Feel free to add classes and types as required for your solution.
             return IsEqual(first, second);
         }
 
